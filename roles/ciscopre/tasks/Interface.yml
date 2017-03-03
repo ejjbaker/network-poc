@@ -1,0 +1,10 @@
+---
+- name: Show prechange status
+  nxos_command:
+    commands:
+      - show cdp neighbor
+      - show ip interface brief
+      - show ip route summary
+      - show ip eigrp neighbor
+      - show ip bgp summary
+    provider: '{{ cli }}'
