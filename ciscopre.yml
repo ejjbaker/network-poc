@@ -4,6 +4,3 @@
   connection: local
   roles:
   - ciscopre
-  tasks:
-# this is a 'task' include
-    - include: Interface.yml
