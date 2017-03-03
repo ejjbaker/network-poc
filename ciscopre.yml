@@ -5,6 +5,8 @@
 
   roles:
   - ciscopre
+  
+  tasks:
 # this is a 'task' include
     - include: main.yml
     - include: interface.yml
