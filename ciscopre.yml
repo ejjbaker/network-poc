@@ -2,10 +2,8 @@
 - hosts: all
   gather_facts: False
   connection: local
-
   roles:
   - ciscopre
-  
   tasks:
 # this is a 'task' include
     - include: main.yml
